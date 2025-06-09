@@ -47,7 +47,7 @@ module.exports = async (req, res) => {
     to: "sales@qulaaengineering.com",
     subject: "New Contact Form Submission",
     html: `
-              <h3>New Message from Contact Form</h3>
+              <h3>New Message</h3>
               <p><strong>Name:</strong> ${name}</p>
               <p><strong>Company:</strong> ${company}</p>
               <p><strong>Telephone:</strong> ${tel}</p>
